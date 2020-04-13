@@ -2,13 +2,15 @@
 
 This contains programs to work with base64 sutff
 
-# Install
+# How to install?
 
-`go install github.com/unkiwii/b64`
+Encoder: `go install github.com/unkiwii/b64/cmd/b64encoder`
+
+Decoder: `go install github.com/unkiwii/b64/cmd/b64decoder`
 
 This will install binaries in your $GOPATH/bin folder, you should have that in you $PATH to be able to call the programs directly
 
-# Who to use
+# Who to use?
 
 b64encoder and b64decoder both read standrad input and write to standard output, or standard error when an error occurs
 
