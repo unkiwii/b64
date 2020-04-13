@@ -15,7 +15,7 @@ b64encoder and b64decoder both read standrad input and write to standard output,
 ## Examples
 
 ```
-$ echo Hello | b64encoder                                                                                                                                                                  INSERT
+$ echo Hello | b64encoder
 SGVsbG8K
 
 $ echo Hello > file
